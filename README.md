@@ -472,7 +472,7 @@ npm run test:local
 - ✅ Full MCP protocol support
 - ✅ SSE-based real-time communication
 - ✅ Auto-connection to online service (https://api.metaid.io/mcp-service)
-- ✅ Support for tools, resources, and prompts
+- ✅ Support for tools, resources and prompts
 
 ---
 

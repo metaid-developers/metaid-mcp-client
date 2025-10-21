@@ -10,8 +10,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE",
-    "CHANGELOG.md"
+    "README-ZH.md",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public",
@@ -19,18 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/metaid-developers/metaid-mcp.git",
-    "directory": "mcp-client-ts"
+    "url": "https://github.com/metaid-developers/metaid-mcp-client.git",
+    "directory": "metaid-mcp-client"
   },
   "scripts": {
     "build": "tsc",
-    "build:browser": "webpack --mode production",
-    "build:all": "npm run build && npm run build:browser",
     "watch": "tsc --watch",
     "clean": "rm -rf dist",
-    "demo": "python3 -m http.server 8080",
-    "setup": "./setup-browser.sh",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "node test-online.js",
+    "test:online": "node test-online.js",
+    "example": "node example-simple.js"
   },
   "keywords": [
     "metaid",
@@ -40,14 +39,14 @@
     "typescript",
     "client",
     "sse",
-    "websocket"
+    "web3"
   ],
   "author": "MetaID Team <dev@metaid.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/metaid-developers/metaid-mcp/issues"
+    "url": "https://github.com/metaid-developers/metaid-mcp-client/issues"
   },
-  "homepage": "https://github.com/metaid-developers/metaid-mcp#readme",
+  "homepage": "https://github.com/metaid-developers/metaid-mcp-client#readme",
   "dependencies": {
     "commander": "^11.1.0",
     "eventsource": "^2.0.2"

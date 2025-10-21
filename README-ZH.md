@@ -472,7 +472,7 @@ npm run test:local
 - ✅ 完整的 MCP 协议支持
 - ✅ 基于 SSE 的实时通信
 - ✅ 自动连接到线上服务 (https://api.metaid.io/mcp-service)
-- ✅ 支持tools、resources和promptss
+- ✅ 支持 tools、resources 和 prompts
 
 ---
 
