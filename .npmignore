@@ -1,0 +1,57 @@
+# 源代码（只发布编译后的文件）
+src/
+tsconfig.json
+
+# 测试和示例
+test/
+tests/
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+example.js
+example-simple.js
+test-*.js
+
+# 开发文件
+.gitignore
+.editorconfig
+.eslintrc*
+.prettierrc*
+webpack.config.js
+setup-browser.sh
+
+# 文档（部分）
+DEBUG.md
+USAGE_GUIDE.md
+NPM_PUBLISH_GUIDE.md
+
+# 构建产物（浏览器版本）
+browser-example.html
+
+# Node modules
+node_modules/
+
+# 日志和临时文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# 环境变量
+.env
+.env.*
+
+# 其他
+coverage/
+.nyc_output/
+package-lock.json
